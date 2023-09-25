@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 180vh;
+    min-width: 100vw;
+    /* background-color: purple; */
+    background-color: mediumorchid;
+    /* opacity: 10%; */
+    background-image: url(enjoy.jpg);width: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    color: white;
+    /* font-size: small; */
+    /* font-size: medium; */
+    /* font-family: monospace; */
+}
+.big{
+    min-height: 100vh;
+    min-width: 100vw;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.free{
+    text-align: center;
+}
+.tan{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+.first{
+    /* background-color: brown; */
+    height: 7em;
+    width: 28em;
+    padding: 0.9em;
+}
+input{
+    border-radius: 5px;
+}
+.father{
+    width:45%;  
+    display: grid;  
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 2em; */
+    margin-bottom: 2em;
+    padding: 2em;
+    /* position: absolute;
+    left: 50%;
+    right: 50%; */
+}
+.small{
+    /* background-color: black; */
+    width: 32em;
+    height: 60em;
+    /* margin-top: -40em; */
+    /* display: flex; */
+    padding: 2em;
+}
+.second{
+    /* background-color: navy; */
+    background-color: midnightblue;
+    width: 30em;
+    height: 60em;
+    padding: 2em;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin: 0.2em; */
+}
+.input{
+    border: none;
+    color:black;
+    height: 2em;
+    width: 30em;
+    padding: 0.6em;
+    margin-bottom: 0.6em ;
+}
+.c-two{
+    display: table;
+    margin-bottom: 1em;
+    /* padding: 2em; */
+}
+.input-2{
+    margin-right: 0.2em;
+}
+.inp{
+    border: none;
+    width: 22em;
+    padding: 0.6em;
+}
+select{
+    
+    border: none;
+}
+.but-3{
+    border: none;
+    background-color: white;
+}
+.box{
+    margin-bottom: 0.7em;
+    margin-top: 0.2em;
+}
+.c-four{
+    padding: 0.3em;
+    margin-top: 0.9em;
+}
+.but-4{
+    padding: 0.3em;
+    width: 30em;
+    height: 4em;
+}
+.c-six{
+    
+}
+.submit{
+    color: white;
+    width: 30em;
+    height: 2em;
+    border: none;
+    border-radius: 5px;
+    background-color: limegreen;
+}
